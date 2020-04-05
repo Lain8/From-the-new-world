@@ -1,0 +1,121 @@
+
+
+
+
+body{
+	background-image: url('image/background.jpg');*/
+	background-image: 
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	background-position: left-top;
+	height: 100%
+	width: 100%;
+}
+
+.jumbotron{
+	background:transparent;
+	padding: : 30px 0px 50px 0px;
+	align-items: center;
+
+}
+
+#logo{
+	position:; center;
+	}
+
+.container_bg{
+	background: white;
+}
+
+.row{
+	padding: 10em 0em 10em 0em;
+}
+
+.trait{
+	margin: 3em 35% 5em 35%;
+	border-top: 3px solid #e4e4e4;
+
+}
+
+
+.card{
+	border: none;
+	size: large;
+}
+
+.img_women{
+	  max-width: 100%;
+ 	height: auto;	
+}
+
+p{
+	text-align: left;
+}
+
+	.conteneur{
+		display: flex;
+		flex-direction: row;
+		padding: 3em;
+		background-color: white; 
+		height: 900px;
+	}
+	.column{
+		display: flex;
+
+		width: 100%;
+		height: 500px;
+
+
+	}
+
+	.ligne{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+
+	.ligne1{
+		height: auto;
+	}
+	.ligne2{
+
+		height: 27%;
+		width: 100%
+	}
+
+	.ligne3{
+		height: 73%;
+		padding: 3em;
+	}
+
+
+	.conteneur_email{
+		padding-top: 3em;
+	}
+
+	.my_input{
+		padding: 3em;
+	}
+
+@media screen and (max-width: 991px) {
+
+	.conteneur{
+		display: flex;
+		flex-direction: column;
+		 height: 1200px;
+	}
+	
+	.ligne3{
+		padding: 0em 3em 0em 3em;
+	}
+
+	.ligne{
+		
+		height: 0em;
+	}
+}
+
+/* Import barre social media*/
+
